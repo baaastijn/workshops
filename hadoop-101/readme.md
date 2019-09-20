@@ -12,10 +12,11 @@ It's the amount of money for each real estate transaction in France since 5 year
 
 ### Big data cluster links
 
-You need to deploy a cluster with OVH : https://www.ovh.com/fr/public-cloud/big-data-hadoop/ 
+You need to deploy a cluster with OVH : https://www.ovh.com/fr/public-cloud/big-data-hadoop/
+
 It's a big data cluster, deployed and secured in 1 hour on top of OVH Public Cloud.
 
-then you will have URL for services
+Then you will have URL for services.
 
 Also : if you just want an easy solution, you can deploy locally Hortonworks Sandbox : 
 https://www.cloudera.com/downloads/hortonworks-sandbox.html
@@ -33,7 +34,7 @@ Direct link for data if needed : https://www.data.gouv.fr/fr/datasets/r/1be77ca5
 
 ### STEP 2
 
-Code to create SQL dvf table : https://pastebin.com/y2fNc7Jy
+Code to create SQL dvf table : see file "create_dvf_table.txt" or copy https://pastebin.com/y2fNc7Jy
 
 
 ### STEP 3
@@ -58,7 +59,7 @@ STORE B INTO '/user/<your_login>/cleaned/cleaned_valeursfoncieres-2018.txt';
 
 ### STEP 6
 
-Code to create SQL cleaned_data table : https://pastebin.com/E801sYtA
+Code to create SQL cleaned_data table : see file "create_cleaned_data_table.txt" or copy https://pastebin.com/E801sYtA
 
 Query : 
 
